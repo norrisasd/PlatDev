@@ -1,0 +1,41 @@
+#box{
+    width: 70%;
+    height:70%;
+    background: rgba(38, 50, 56, 0.4);
+    margin:2% 0% 2% 14%; 
+    padding : 3% 2% 2% 3%;
+    overflow-y:auto;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+    word-wrap: break-word;
+    position:relative;
+    text-align:justify;
+    animation:transitionIn 1s;
+  }
+  img{
+      height:240px;
+      max-width: 240px;
+      float:left;
+      margin:0% 2% 2% 2%;
+      display:block;
+  }
+  #left{
+      z-index:1;
+      top:27%;
+      left:6.5%;
+      font-size:25px;
+      color:black;
+      opacity:0.5;
+      position:absolute;
+      cursor:pointer;
+  }
+  #right{
+        z-index:1;
+        top:27%;
+        left:23%;
+        font-size:23px;
+        color:black;
+        opacity:0.5;
+        position:absolute;
+        cursor:pointer;
+  }

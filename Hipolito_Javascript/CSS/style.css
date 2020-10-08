@@ -1,0 +1,112 @@
+@keyframes transitionIn{
+    from{
+        opacity:0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity:1;
+        transform: rotateX(0deg);
+    }
+}
+
+@font-face{
+    font-family:"val";
+    src:url("Fonts/BillionDreams_PERSONAL.ttf");
+}
+body,html{
+    padding:0px;
+    margin: 0px;
+    height:100%;
+    font-family: tahoma;
+    background-image:linear-gradient(to right,#141e30,#243b55) ;
+}
+#bannerMenu{
+    margin: 0px;
+    background-color: #263238;
+    height:75px;
+    text-align: center;
+    opacity: 0.7;
+}
+#bannerMenu a{
+    font-size: 16px;
+    font-family:arial;
+    font-weight:700;
+    margin-top:10px;
+    letter-spacing: 4px;
+    color:white;
+    text-align: center;
+    width: 150px;
+    padding: 20px;
+    display:inline-block;
+    text-decoration: none;
+}
+#bannerMenu a:hover{
+    transition-duration: 350ms;
+    transition-timing-function: ease-in-out;
+    color:black;
+    transform:rotate(5deg);
+    margin:0px;
+}
+#header{
+    margin:0px;
+    height: 83%;
+    background-color: #B0BEC5;
+    text-align:center;
+}
+#header p{
+    animation: transitionIn 1s;
+    text-align:center;
+    font-family:val;
+    font-weight: 400px;
+    color:white;
+    margin: 5px 0px;
+    font-size: 25px;
+    
+}
+#logo{
+    border-radius: 50%;
+    margin:30px 10px 10px 130px;
+    width: 100px;
+    height: 100px;
+  }
+#text{
+    animation: transitionIn 1s;
+    font-family:val;
+    font-weight: 100px;
+    color:white;
+    margin: 5px 12% 0px;
+    line-height: 50%;
+    font-size: 200px;
+    text-align:center;
+    display:inline-block;
+}
+span{
+    transition: all 0.5s ease;
+}
+span .fade{
+    color:#263238;
+}
+/*FOOTER*/
+#footer{
+    font-family: 'Times New Roman';
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    background-color: #78908C;
+    height: 100px;
+}
+#footer li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+#footer li a{
+    text-align:center;
+    font-size: 42px;
+    text-decoration:none;
+    color:#fff;
+    transition: all ease-in-out 250ms;
+}
+#footer li a:hover{
+    color:#141e30;
+}
